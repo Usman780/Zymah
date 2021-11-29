@@ -1,0 +1,30 @@
+01.11.2016 -- 1.0.5
+
+ * header.php -- removed spot for old titles
+ * functions.php -- declared support for title-tag
+ 		-- added title fallback for users of older versions of WP
+ * comment-functions.php -- updated function name to match callback (translation changes led to mismatched names).
+ * includes/fonts.php -- altered http enqueueing of fonts to allow for https operation.
+
+02.02.2015 -- 1.0.4
+
+ * search.php -- added template for search results
+ * header.php -- removed unnecessary option for header/text logo.  Uploading logo replaces text logo now
+ * layouts/pagination.php -- swapped previous/next arrows for more natural arrangement
+ * includes/custom-css.php -- fixed some CSS specificity in the navigation menu colors
+		-- removed unnecessary output of font weight (makes headings have font-weight of 700 which was already in the style.css file)
+ * includes/fonts.php -- added 54 additional Google fonts
+ * includes/widgets.php -- added line break before and after widget to make reading source code easier on front of site
+ * includes/options.php -- changed footer custom text option to editor type from text
+ * functions.php -- removed redirect to theme options on theme activation (no longer necessary due to logo change).
+ 		-- changed textdomain from organizedthemes to simple
+ 		-- updated version number
+ * style.css -- changed width of searchbox so it will use calc if supported
+ 		-- added styles for media playlists
+ 		-- made navigation menu items a heavier font weight for better visibility
+ 		-- improved styles for search results
+ * languages/simple.pot -- update file to match new textdomain and string updates
+ 
+ Changed textdomain throughout from organizedthemes to simple in order to match the folder name
+ 
+ 1.0.3 -- first public release

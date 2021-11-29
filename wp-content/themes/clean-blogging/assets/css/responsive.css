@@ -1,0 +1,39 @@
+/* ==========================================================================
+   Responsive Design
+========================================================================== */
+
+@media only screen and (min-width: 720px) {
+	.content-area {
+		width: 100%;
+		max-width: 60%;
+		float: left;
+	}
+	.site-content .widget-area {
+	    max-width: 26.5%;
+	    float: right;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	/*Comment*/
+	ul.comment-list .children {
+		margin-left: 2.5rem; }
+}
+
+@media only screen and (min-width: 1024px) {
+	.content-area {
+		width: 100%;
+		max-width: 67%;
+		float: left;
+	}
+}
+
+@media only screen and (min-width: 1280px) {
+	/*Comment*/
+	.comment-form-author,
+	.comment-form-email,
+	.comment-form-url {
+		position: relative;
+		float: left;
+		width: 100%; }
+}

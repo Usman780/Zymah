@@ -1,0 +1,35 @@
+/* ==========================================================================
+   Footer
+========================================================================== */
+
+#colophon {
+	border-top: 1px solid #e9ecef;
+	text-align: center;
+	padding: 15px 0;
+}
+
+#colophon p {
+	color: #212b35;
+}
+
+#colophon a {
+	color: #444;
+}
+
+#colophon a:hover {
+	color: #FF5722;
+}
+
+.footer_social ul {
+	text-align: center;
+	padding: 0;
+	margin-bottom: 0;
+}
+
+.footer_social ul li {
+	display: inline-block;
+}
+
+.site-info {
+	font-size: 0.9rem;
+}

@@ -1,0 +1,627 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Simple and Clean\n"
+"POT-Creation-Date: 2016-01-11 14:52-0600\n"
+"PO-Revision-Date: 2016-01-11 14:51-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: comments.php:22
+#, php-format
+msgid "One Comment On &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Comments On &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:39
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:40
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:45
+msgid "Comments are closed."
+msgstr ""
+
+#: content-image.php:43 content-video.php:47 content.php:43
+msgid "<span class=\"more-link\">Read more</span>"
+msgstr ""
+
+#: content-image.php:53 content-image.php:67 content-search.php:29
+#: content-video.php:57 content-video.php:71 content.php:53 content.php:67
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: content-image.php:53 content-image.php:67 content-search.php:29
+#: content-video.php:57 content-video.php:71 content.php:53 content.php:67
+msgid "Read More"
+msgstr ""
+
+#: content-image.php:59 content-video.php:63 content.php:59
+msgid "<span class=\"more-tag\">Read more</span>"
+msgstr ""
+
+#: content-none.php:16
+msgid "Start Adding Content"
+msgstr ""
+
+#: content-none.php:18
+#, php-format
+msgid ""
+"It looks like the site needs some content. <a href=\"%1$s\">Get started "
+"here</a>."
+msgstr ""
+
+#: content-none.php:22
+msgid "Not Found"
+msgstr ""
+
+#: content-none.php:24
+msgid ""
+"We could not find the content you're looking for.  You can try searching for "
+"it here."
+msgstr ""
+
+#: functions.php:44
+msgid "Header Navigation"
+msgstr ""
+
+#: inc/options-framework.php:163 inc/options-framework.php:378
+msgid "Theme Options"
+msgstr ""
+
+#: inc/options-framework.php:194
+msgid "Clear"
+msgstr ""
+
+#: inc/options-framework.php:195
+msgid "Default"
+msgstr ""
+
+#: inc/options-framework.php:196
+msgid "Select Color"
+msgstr ""
+
+#: inc/options-framework.php:241
+msgid "Save Options"
+msgstr ""
+
+#: inc/options-framework.php:242
+msgid "Restore Defaults"
+msgstr ""
+
+#: inc/options-framework.php:242
+msgid ""
+"Click OK to reset. Any theme settings will be lost!  This can not be undone."
+msgstr ""
+
+#: inc/options-framework.php:274
+msgid "Default options restored."
+msgstr ""
+
+#: inc/options-framework.php:328
+msgid "Options saved."
+msgstr ""
+
+#: inc/options-media-uploader.php:51
+msgid "No file chosen"
+msgstr ""
+
+#: inc/options-media-uploader.php:54 inc/options-media-uploader.php:107
+msgid "Upload"
+msgstr ""
+
+#: inc/options-media-uploader.php:56 inc/options-media-uploader.php:108
+msgid "Remove"
+msgstr ""
+
+#: inc/options-media-uploader.php:59
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/options-media-uploader.php:83
+msgid "View File"
+msgstr ""
+
+#: inc/options-sanitize.php:232
+msgid "No Repeat"
+msgstr ""
+
+#: inc/options-sanitize.php:233
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/options-sanitize.php:234
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/options-sanitize.php:235
+msgid "Repeat All"
+msgstr ""
+
+#: inc/options-sanitize.php:248
+msgid "Top Left"
+msgstr ""
+
+#: inc/options-sanitize.php:249
+msgid "Top Center"
+msgstr ""
+
+#: inc/options-sanitize.php:250
+msgid "Top Right"
+msgstr ""
+
+#: inc/options-sanitize.php:251
+msgid "Middle Left"
+msgstr ""
+
+#: inc/options-sanitize.php:252
+msgid "Middle Center"
+msgstr ""
+
+#: inc/options-sanitize.php:253
+msgid "Middle Right"
+msgstr ""
+
+#: inc/options-sanitize.php:254
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/options-sanitize.php:255
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/options-sanitize.php:256
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/options-sanitize.php:269
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/options-sanitize.php:270
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/options-sanitize.php:344
+msgid "Normal"
+msgstr ""
+
+#: inc/options-sanitize.php:345
+msgid "Italic"
+msgstr ""
+
+#: inc/options-sanitize.php:346
+msgid "Bold"
+msgstr ""
+
+#: inc/options-sanitize.php:347
+msgid "Bold Italic"
+msgstr ""
+
+#: includes/comment-functions.php:20
+msgid "Pingback:"
+msgstr ""
+
+#: includes/comment-functions.php:20 includes/comment-functions.php:36
+msgid "(Edit)"
+msgstr ""
+
+#: includes/comment-functions.php:29
+#, php-format
+msgid "%s"
+msgstr ""
+
+#. translators: 1: date, 2: time
+#: includes/comment-functions.php:34
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: includes/comment-functions.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: includes/options.php:28
+msgid "Text"
+msgstr ""
+
+#: includes/options.php:29
+msgid "Image"
+msgstr ""
+
+#: includes/options.php:34 includes/options.php:40
+msgid "Yes"
+msgstr ""
+
+#: includes/options.php:35 includes/options.php:41
+msgid "No"
+msgstr ""
+
+#: includes/options.php:46
+msgid "Excerpt"
+msgstr ""
+
+#: includes/options.php:47
+msgid "Full Content"
+msgstr ""
+
+#: includes/options.php:53
+msgid "Header"
+msgstr ""
+
+#: includes/options.php:56
+msgid "Upload Logo"
+msgstr ""
+
+#: includes/options.php:57
+msgid "Upload a graphic logo here."
+msgstr ""
+
+#: includes/options.php:61
+msgid "Text Logo Font"
+msgstr ""
+
+#: includes/options.php:62
+msgid "Choose the type for your text logo."
+msgstr ""
+
+#: includes/options.php:72
+msgid "Text Logo Color"
+msgstr ""
+
+#: includes/options.php:73
+msgid "The color of a text based logo."
+msgstr ""
+
+#: includes/options.php:78
+msgid "Text Logo Hover Color"
+msgstr ""
+
+#: includes/options.php:79
+msgid "The color of a text based logo while hovering."
+msgstr ""
+
+#: includes/options.php:84
+msgid "Navigation Item Font"
+msgstr ""
+
+#: includes/options.php:85
+msgid "Sets the type for your navigation menu."
+msgstr ""
+
+#: includes/options.php:95
+msgid "Navigation Bar Background Color"
+msgstr ""
+
+#: includes/options.php:96
+msgid "Sets the background color for navigation bar."
+msgstr ""
+
+#: includes/options.php:102
+msgid "Navigation Link Color"
+msgstr ""
+
+#: includes/options.php:103
+msgid "Sets the link color for navigation bar."
+msgstr ""
+
+#: includes/options.php:108
+msgid "Navigation Link Hover"
+msgstr ""
+
+#: includes/options.php:109
+msgid "Sets the link color for navigation bar while hovering."
+msgstr ""
+
+#: includes/options.php:114
+msgid "Navigation Link Hover Background"
+msgstr ""
+
+#: includes/options.php:115
+msgid "Sets the background link color for navigation bar while hovering."
+msgstr ""
+
+#: includes/options.php:121
+msgid "Favicon"
+msgstr ""
+
+#: includes/options.php:122
+msgid ""
+"Upload a favicon (small icon that sits beside your websites address in a "
+"browser navigation bar here."
+msgstr ""
+
+#: includes/options.php:128
+msgid "Mobile Navigation Label"
+msgstr ""
+
+#: includes/options.php:129
+msgid "Sets the text for the mobile navigation menu"
+msgstr ""
+
+#: includes/options.php:136 includes/theme-customizer.php:105
+msgid "Content"
+msgstr ""
+
+#: includes/options.php:139
+msgid "Excerpt Or Full Content"
+msgstr ""
+
+#: includes/options.php:140
+msgid ""
+"You can choose to display your full post content or only an excerpt on "
+"archive pages."
+msgstr ""
+
+#: includes/options.php:147
+msgid "Body Font"
+msgstr ""
+
+#: includes/options.php:148
+msgid "This is used for the main conent and widgets."
+msgstr ""
+
+#: includes/options.php:158
+msgid "Link Color"
+msgstr ""
+
+#: includes/options.php:159
+msgid "Sets the default color for links."
+msgstr ""
+
+#: includes/options.php:164
+msgid "Link Hover Color"
+msgstr ""
+
+#: includes/options.php:165
+msgid "Sets the hover state color for links."
+msgstr ""
+
+#: includes/options.php:170
+msgid "Text Color"
+msgstr ""
+
+#: includes/options.php:171
+msgid "The color of your main text"
+msgstr ""
+
+#: includes/options.php:176
+msgid "Content Background Color"
+msgstr ""
+
+#: includes/options.php:177
+msgid "The background color of the main content area."
+msgstr ""
+
+#: includes/options.php:182
+msgid "Heading Font"
+msgstr ""
+
+#: includes/options.php:183
+msgid ""
+"Choose a font for your page titles and other headings (h1, h2, h3, h4, h5, "
+"h6)"
+msgstr ""
+
+#: includes/options.php:194
+msgid "Heading Color"
+msgstr ""
+
+#: includes/options.php:195
+msgid "The color of your headings"
+msgstr ""
+
+#: includes/options.php:200 includes/theme-customizer.php:381
+msgid "Footer"
+msgstr ""
+
+#: includes/options.php:204
+msgid "Custom Footer Text"
+msgstr ""
+
+#: includes/options.php:205
+msgid "The text you enter here will be displayed in the footer."
+msgstr ""
+
+#: includes/options.php:210
+msgid "Footer Text Color"
+msgstr ""
+
+#: includes/options.php:211
+msgid "The color the text in your footer."
+msgstr ""
+
+#: includes/options.php:217
+msgid "Footer background Color"
+msgstr ""
+
+#: includes/options.php:218
+msgid "The background color the text in your footer."
+msgstr ""
+
+#: includes/options.php:223 includes/theme-customizer.php:310
+msgid "Widgets"
+msgstr ""
+
+#: includes/options.php:227
+msgid "Widget Title Font"
+msgstr ""
+
+#: includes/options.php:228
+msgid "Choose a font for your widget titles."
+msgstr ""
+
+#: includes/options.php:238
+msgid "Widget Title Color"
+msgstr ""
+
+#: includes/options.php:239
+msgid "Text color for widget titles"
+msgstr ""
+
+#: includes/options.php:244
+msgid "Widget Title Background"
+msgstr ""
+
+#: includes/options.php:245
+msgid "Background color for widget titles."
+msgstr ""
+
+#: includes/options.php:250
+msgid "Widget Text Color"
+msgstr ""
+
+#: includes/options.php:251
+msgid "Sets the color of text in widgets."
+msgstr ""
+
+#: includes/options.php:256
+msgid "Widget Background Color"
+msgstr ""
+
+#: includes/options.php:257
+msgid "Sets the background color in widgets."
+msgstr ""
+
+#: includes/options.php:262 includes/theme-customizer.php:246
+msgid "Buttons"
+msgstr ""
+
+#: includes/options.php:265
+msgid "Button Text"
+msgstr ""
+
+#: includes/options.php:266
+msgid "Text color for buttons"
+msgstr ""
+
+#: includes/options.php:271
+msgid "Button Background"
+msgstr ""
+
+#: includes/options.php:272
+msgid "Background color for buttons"
+msgstr ""
+
+#: includes/options.php:277
+msgid "Button Text (hover)"
+msgstr ""
+
+#: includes/options.php:278
+msgid "Text color for buttons while hovering"
+msgstr ""
+
+#: includes/options.php:283
+msgid "Button Background (hover)"
+msgstr ""
+
+#: includes/options.php:284
+msgid "Background color for buttons while hovering"
+msgstr ""
+
+#: includes/options.php:289
+msgid "Advanced"
+msgstr ""
+
+#: includes/options.php:292
+msgid "Enable Google Fonts"
+msgstr ""
+
+#: includes/options.php:293
+msgid "Turns on the output of Google fonts."
+msgstr ""
+
+#: includes/options.php:298
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/options.php:299
+msgid "Add any custom CSS you would like to use here."
+msgstr ""
+
+#: includes/theme-customizer.php:20
+msgid "Logo"
+msgstr ""
+
+#: includes/theme-customizer.php:21
+msgid "Background Color"
+msgstr ""
+
+#: includes/widgets.php:19
+msgid "Default Sidebar"
+msgstr ""
+
+#: includes/widgets.php:21
+msgid "Place your sidebar widgets here."
+msgstr ""
+
+#: layouts/page-pagination.php:2
+msgid "Pages:"
+msgstr ""
+
+#: layouts/pagination.php:3
+msgid "&gt;"
+msgstr ""
+
+#: layouts/pagination.php:5
+msgid "&lt;"
+msgstr ""
+
+#: layouts/post-meta.php:8
+msgid "Comment"
+msgstr ""
+
+#: layouts/post-meta.php:8
+msgid "1 Comment"
+msgstr ""
+
+#: layouts/post-meta.php:8
+msgid "% Comments"
+msgstr ""
+
+#: search.php:20
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:11 searchform.php:12 searchform.php:13
+msgid "Search"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Simple and Clean"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.organizedthemes.com/simple-clean/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An elegant way to communicate your thoughts"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Organized Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.organizedthemes.com"
+msgstr ""

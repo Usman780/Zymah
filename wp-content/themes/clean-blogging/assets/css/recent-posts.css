@@ -1,0 +1,79 @@
+/* clean-blogging Widget List --------------------------------------- */
+
+
+.clean-blogging-widget-list a {
+    display: block;
+    min-height: 100px;
+    position: relative;
+}
+
+.clean-blogging-widget-list .post-icon {
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: #fff;
+	border-radius: 3px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.clean-blogging-widget-list .post-icon img {
+	display: block;
+	border-radius: 3px;
+}
+
+.clean-blogging-widget-list .post-icon .icon-doc {
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 10%;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+}
+
+.clean-blogging-widget-list .inner { padding-left: 100px; }
+
+.clean-blogging-widget-list .title {
+    line-height: 140%;
+    font-weight: 400;
+    color: #111;
+    margin: 0;
+    padding: 5px 0 5px;
+    font-size: 14px;
+}
+
+.clean-blogging-widget-list .meta { 
+	margin-top: 3px; 
+	font-size: 11px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #888;
+}
+
+.clean-blogging-widget-list .excerpt {
+	margin-top: 3px;
+	color: #666;
+	line-height: 130%;
+}
+
+
+.clean-blogging-widget-list p.title,
+.clean-blogging-widget-list p.meta {
+	 -webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+
+.clean-blogging-widget-list > li a:hover p.title {
+    padding: 5px 0 5px 5px;
+}
+
+.clean-blogging-widget-list > li a:hover p.meta {
+	padding: 0 0 0 5px;
+}

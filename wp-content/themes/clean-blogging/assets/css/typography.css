@@ -1,0 +1,139 @@
+/* ==========================================================================
+   Typography
+========================================================================== */
+/*
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Merriweather', serif;
+
+*/
+body,
+button,
+input,
+select,
+textarea {
+	color: #404040;
+	font-family: 'Libre Franklin', Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.925;
+	font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', Arial, Helvetica, sans-serif;
+	clear: both;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #212b35;
+	line-height: 1.1;
+	margin: 35px 0;
+}
+
+h1.entry-title {
+	font-size: 2.4em;
+	margin: 0 0 10px;
+}
+
+h1.page-title.search-term {
+    margin: 0 0 40px;
+    display: inline-block;
+    text-transform: none;
+}
+
+h1.page-title.search-term::after {
+    content: '';
+    border-bottom: 8px solid #e2e2e2;
+    display: block;
+    margin: -10px 0 0;
+}
+
+h2.entry-title {
+    font-size: 34px;
+    margin: 0 0 10px;
+}
+
+h2 {
+	font-size: 34px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 30px;
+}
+
+h5 {
+	font-size: 28px;
+}
+
+h6 {
+	font-size: 26px;
+}
+
+p {
+	margin: 1.5em 0;
+}
+
+.single .content-area p {
+	font-size: 17px;
+	margin: 30px 0;
+}
+
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code,
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}

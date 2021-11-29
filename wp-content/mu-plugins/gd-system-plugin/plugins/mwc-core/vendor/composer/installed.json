@@ -1,0 +1,149 @@
+{
+    "packages": [
+        {
+            "name": "godaddy/mwc-common",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-partners/mwc-common.git",
+                "reference": "e2693403002dd739f1437c7e7aeb7560b084ab9a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-partners/mwc-common/zipball/e2693403002dd739f1437c7e7aeb7560b084ab9a",
+                "reference": "e2693403002dd739f1437c7e7aeb7560b084ab9a",
+                "shasum": ""
+            },
+            "archive": {
+                "exclude": [
+                    "/documentation"
+                ]
+            },
+            "require": {
+                "ext-json": "*",
+                "php": ">=7.0 <9.0",
+                "psr/log": "^1.1"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.4.2",
+                "dms/phpunit-arraysubset-asserts": "^0.2.1",
+                "phpunit/phpunit": "^9.4"
+            },
+            "time": "2021-02-25T19:43:49+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "GoDaddy\\WordPress\\MWC\\Common\\": "src/",
+                    "GoDaddy\\WordPress\\MWC\\Common\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "install-path": "../godaddy/mwc-common"
+        },
+        {
+            "name": "godaddy/mwc-dashboard",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:gdcorp-partners/mwc-dashboard.git",
+                "reference": "f622046e5754f15313c1e2c7c54745268c8c47a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gdcorp-partners/mwc-dashboard/zipball/f622046e5754f15313c1e2c7c54745268c8c47a9",
+                "reference": "f622046e5754f15313c1e2c7c54745268c8c47a9",
+                "shasum": ""
+            },
+            "require": {
+                "godaddy/mwc-common": "^1.0",
+                "php": ">=7.0 <9.0",
+                "psr/log": "^1.1"
+            },
+            "require-dev": {
+                "10up/wp_mock": "0.4.2",
+                "phpunit/phpunit": "^9.4"
+            },
+            "time": "2021-02-25T20:36:24+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "GoDaddy\\WordPress\\MWC\\Dashboard\\": "src/"
+                }
+            },
+            "autoload-dev": {
+                "psr-4": {
+                    "GoDaddy\\WordPress\\MWC\\Dashboard\\Tests\\": "tests/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "MWC Dashboard",
+            "install-path": "../godaddy/mwc-dashboard"
+        },
+        {
+            "name": "psr/log",
+            "version": "dev-master",
+            "version_normalized": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/log.git",
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/dd738d0b4491f32725492cf345f6b501f5922fec",
+                "reference": "dd738d0b4491f32725492cf345f6b501f5922fec",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "time": "2020-09-18T06:44:51+00:00",
+            "default-branch": true,
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.1.x-dev"
+                }
+            },
+            "installation-source": "source",
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Log\\": "Psr/Log/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for logging libraries",
+            "homepage": "https://github.com/php-fig/log",
+            "keywords": [
+                "log",
+                "psr",
+                "psr-3"
+            ],
+            "support": {
+                "source": "https://github.com/php-fig/log/tree/master"
+            },
+            "install-path": "../psr/log"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}
